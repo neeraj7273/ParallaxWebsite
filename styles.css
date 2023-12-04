@@ -70,6 +70,26 @@ section{
     margin: 5rem 0;
 }
 
+.bg{
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.desc {
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    top: 50%;
+    left: 50%;
+    color: black;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
 .bg1{
     background-image: url('/images/sport-1.jpg');
      
